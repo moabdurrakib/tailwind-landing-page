@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['/*.html'],
+  content: ['./*.html'],
   theme: {
     screen: {
       sm: '480px',
@@ -8,7 +8,7 @@ module.exports = {
       md: '1440px',
     },
     extend: {
-      color:{
+      colors:{
         brightRed: 'hsl(12, 88%, 59%)',
         brightRedLight: 'hsl(12, 88%, 69%)',
         brightRedSupLight: 'hsl(12, 88%, 95%)',
